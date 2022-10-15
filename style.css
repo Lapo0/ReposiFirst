@@ -1,0 +1,73 @@
+body{
+  background-image: url(img/sfondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-attachment: local;
+}
+
+#box{
+  width: 60%;
+  margin-top: 10%;
+  padding-bottom: 3%;
+  background-color: rgba(00,00,00,0.5);
+  border-radius: 5%;
+}
+
+.display{
+  display: inline-block;
+}
+/* TESTATA */
+header{
+  padding-top: 5%;
+}
+
+#logo{
+  width: 20%;
+}
+
+h1{
+  color: #00FF00;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  margin: 0px;
+}
+/* NAVIGA */
+.naviga{
+  width: 80%;
+  background-color: rgba(00,255,00,0.5);
+}
+
+.naviga, .testo{
+  padding: 1%
+}
+/* TESTO */
+.testo{
+  color: white;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.testo *{
+  margin: 0px;
+}
+/* RETTANGOLO */
+.carica{
+  height:25px;
+  border-radius: 5px;
+}
+
+#rettangolo1 {
+	width:30%;
+	background:orange;
+}
+
+#rettangolo2 {
+	width:50%;
+	background:green;
+}
+
+#rettangolo3 {
+	width:10%;
+	background:red;
+}
